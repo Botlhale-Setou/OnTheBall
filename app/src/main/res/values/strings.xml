@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OnTheBall</string>
+
+    <string name="btnClear_text">Clear Done</string>
+    <string name="btnAdd_text">Add Task</string>
+    <string name="etTask_hint">What are we doing today?</string>
+    <string name="ivLogo_desc">OfNote Logo</string>
+
+    <string name="tvTask_defString">Empty Task</string>
+</resources>

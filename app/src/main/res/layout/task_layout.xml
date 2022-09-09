@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="10dp">
+
+    <TextView
+        android:id="@+id/tvTask"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/tvTask_defString"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cbDone"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbDone"
+        android:layout_width="53dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:buttonTint="@color/black"
+        android:lineSpacingExtra="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
